@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.book {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-card {
+    background-color: #4a46bb;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .book-image {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 16px;
+  }
